@@ -43,20 +43,10 @@ public class FirstThing {
 		driver.findElement(By.id("p_lt_ctl08_wPP_p_lt_ctl01_wPL_p_lt_ctl00_wCL_wCL_l1_wLF_Login1_Password")).sendKeys("password");
 		driver.findElement(By.id("p_lt_ctl08_wPP_p_lt_ctl01_wPL_p_lt_ctl00_wCL_wCL_l1_wLF_Login1_LoginButton")).click();
 		driver.close();
-		driver = null;
+		driver .quit();
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	
 	public int add(int x, int y){
 		int result = x + y;
