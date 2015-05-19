@@ -58,8 +58,9 @@ public class FirstThing {
 	
 	
 	
-	public static void testForValidLogin(){
-		
+	public int add(int x, int y){
+		int result = x + y;
+		return result;
 	}
 
 }
