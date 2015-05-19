@@ -48,8 +48,8 @@ public class FirstThing {
 	
 		
 	
-	public int add(int x, int y){
-		int result = x + y;
+	public int add(int a, int b){
+		int result = a * b;
 		return result;
 	}
 
